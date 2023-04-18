@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-17T21:19:37 CDT" name="PetsSuite" finished-at="2023-04-17T21:19:40 CDT" duration-ms="2949">
+    <groups>
+    </groups>
+    <test started-at="2023-04-17T21:19:37 CDT" name="PetsTest" finished-at="2023-04-17T21:19:40 CDT" duration-ms="2949">
+      <class name="api.test.UserTests2">
+        <test-method is-config="true" signature="setUpData()[pri:0, instance:api.test.UserTests2@cb191ca]" started-at="2023-04-17T21:19:37 CDT" name="setUpData" finished-at="2023-04-17T21:19:37 CDT" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpData -->
+        <test-method signature="testPostUser(org.testng.ITestContext)[pri:1, instance:api.test.UserTests2@cb191ca]" started-at="2023-04-17T21:19:37 CDT" name="testPostUser" finished-at="2023-04-17T21:19:39 CDT" duration-ms="1791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2ad99cf3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="testGetUser()[pri:2, instance:api.test.UserTests2@cb191ca]" started-at="2023-04-17T21:19:39 CDT" name="testGetUser" finished-at="2023-04-17T21:19:39 CDT" duration-ms="231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUser -->
+        <test-method signature="testUpdateUser()[pri:3, instance:api.test.UserTests2@cb191ca]" started-at="2023-04-17T21:19:39 CDT" name="testUpdateUser" finished-at="2023-04-17T21:19:40 CDT" duration-ms="489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method signature="testDeleteUser()[pri:4, instance:api.test.UserTests2@cb191ca]" started-at="2023-04-17T21:19:40 CDT" name="testDeleteUser" finished-at="2023-04-17T21:19:40 CDT" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+      </class> <!-- api.test.UserTests2 -->
+    </test> <!-- PetsTest -->
+  </suite> <!-- PetsSuite -->
+</testng-results>
